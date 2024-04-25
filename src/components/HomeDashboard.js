@@ -25,17 +25,21 @@ const HomeDashboard = () => {
       number: "10,000",
     },
   ];
+   
   return (
     <main>
       <Navbar />
       <main className="dashboard_body">
         <div className="analytic_card">
-          {analyticCardProps.map((prop) => {
+          {analyticCardProps.map((prop, index) => {
+            const isLast = index === analyticCardProps.length - 1;
             return (
               <AnalyticCard
                 number={prop.number}
                 text={prop.text}
                 graph={prop.graph}
+                key={index}
+                isLast={isLast}
               />
             );
           })}

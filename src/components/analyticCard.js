@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/analytic_card_style.css";
 
-const AnalyticCard = ({ graph, text, number,id }) => {
+const AnalyticCard = ({ graph, text, number,  isLast }) => {
+  const cardClassName = `card_wrapper ${isLast ? "last_card_wrapper" : ""}`;
   return (
-    <main className="card_wrapper">
+    <main className={cardClassName}>
       <div>{graph}</div>
       <div>
         <div>{text}</div>
