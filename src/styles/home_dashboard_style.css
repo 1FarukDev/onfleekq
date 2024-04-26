@@ -1,13 +1,15 @@
 .analytic_card {
   display: flex;
   gap: 40px;
-  width: 65%;
 }
 .dashboard_body {
   display: flex;
   align-items: start;
   gap: 30px;
 }
-.transaction_card{
-    width: 35%;
+.transaction_card {
+  width: 35%;
+}
+.analytic_card_body {
+  width: 65%;
 }
