@@ -13,3 +13,9 @@
 .analytic_card_body {
   width: 65%;
 }
+
+.card_details{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}

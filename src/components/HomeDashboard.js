@@ -4,6 +4,7 @@ import AnalyticCard from "./analyticCard";
 import "../styles/home_dashboard_style.css";
 import TransactionCard from "./transactionCard";
 import TimeCard from "./timeCard";
+import ProfileCard from "./profileCard";
 
 const HomeDashboard = () => {
   const analyticCardProps = [
@@ -47,8 +48,9 @@ const HomeDashboard = () => {
             })}
           </div>
           <div>
-            <div>
+            <div className="card_details">
               <TimeCard />
+              <ProfileCard />
             </div>
           </div>
         </div>

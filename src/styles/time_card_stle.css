@@ -1,8 +1,7 @@
 .graph_part{
-    width: 300px;
+    width: 48%;
     position: relative;
     min-height: 236px;
-    margin-top: 40px;
     box-shadow: 0 4px 10px #F5F5FC, 0 1px 4px #F5F5FC;
     border-radius: 10px;
     
