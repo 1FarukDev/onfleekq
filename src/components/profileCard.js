@@ -3,7 +3,7 @@ import Profile from "../assets/icons/profile1.png";
 import Time from "../assets/icons/time.png";
 import Play from "../assets/icons/play.png";
 import star from "../assets/icons/star.png";
-import { FaArrowRight } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 import "../styles/profile_card_style.css";
 const ProfileCard = () => {
   const menu = [
@@ -50,8 +50,8 @@ const ProfileCard = () => {
       <div className="profile_connect">
         <p>5 days ago</p>
         <div className="connect_button">
-          Connect
-         <FaArrowRight />
+          <p>Connect</p>
+          <IoIosArrowForward />
         </div>
       </div>
     </main>

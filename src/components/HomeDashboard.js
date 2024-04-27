@@ -5,7 +5,7 @@ import "../styles/home_dashboard_style.css";
 import TransactionCard from "./transactionCard";
 import TimeCard from "./timeCard";
 import ProfileCard from "./profileCard";
-
+import StatistcisImage from "../assets/images/chart large.png";
 const HomeDashboard = () => {
   const analyticCardProps = [
     {
@@ -46,6 +46,9 @@ const HomeDashboard = () => {
                 />
               );
             })}
+          </div>
+          <div className="statistics_image">
+            <img src={StatistcisImage} alt="Statistics Image" className="statics"/>
           </div>
           <div>
             <div className="card_details">
