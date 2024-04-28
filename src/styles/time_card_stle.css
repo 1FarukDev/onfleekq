@@ -4,8 +4,6 @@
     min-height: 236px;
     box-shadow: 0 4px 10px #F5F5FC, 0 1px 4px #F5F5FC;
     border-radius: 10px;
-    
-
 }
 .line_graph{
     position: absolute;
@@ -48,4 +46,9 @@
 }
 .graph_text{
     padding: 10px;
+}
+@media screen and (max-width: 1050px) {
+.graph_part{
+    width: 100%;
+}
 }

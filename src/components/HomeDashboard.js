@@ -6,24 +6,27 @@ import TransactionCard from "./transactionCard";
 import TimeCard from "./timeCard";
 import ProfileCard from "./profileCard";
 import StatistcisImage from "../assets/images/chart large.png";
+import first from '../assets/images/first.png'
+import second from '../assets/images/second.png'
+import third from '../assets/images/third.png'
 const HomeDashboard = () => {
   const analyticCardProps = [
     {
       id: 0,
-      text: "Visitor",
-      graph: "jj",
+      text: "Visitors",
+      graph: first,
       number: "10,000",
     },
     {
       id: 1,
-      text: "Visitor",
-      graph: "jj",
+      text: "Customers",
+      graph: second,
       number: "10,000",
     },
     {
       id: 2,
-      text: "Visitor",
-      graph: "jj",
+      text: "Orders",
+      graph: third,
       number: "10,000",
     },
   ];
@@ -48,7 +51,11 @@ const HomeDashboard = () => {
             })}
           </div>
           <div className="statistics_image">
-            <img src={StatistcisImage} alt="Statistics Image" className="statics"/>
+            <img
+              src={StatistcisImage}
+              alt="Statistics Image"
+              className="statics"
+            />
           </div>
           <div>
             <div className="card_details">

@@ -42,3 +42,10 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1050px) {
+.profile_card_container {
+  width: 100%;
+  margin-top: 10px;
+}
+}
